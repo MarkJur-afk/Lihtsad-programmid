@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ba832d33-95a2-4a89-b6f8-db797fcdcc64</ProjectGuid>
+    <ProjectGuid>e7aca613-8f8f-41cc-b2d2-ddfd44d0209d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module1.py</StartupFile>
+    <StartupFile>Lihtsad_Programmid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Lihtsad programmid</Name>
-    <RootNamespace>Lihtsad programmid</RootNamespace>
+    <Name>Lihtsad Programmid</Name>
+    <RootNamespace>Lihtsad Programmid</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lihtsad_programmid.py" />
-    <Compile Include="module1.py" />
+    <Compile Include="Lihtsad_Programmid.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
