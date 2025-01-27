@@ -18,7 +18,7 @@
 # # Dec-27-2022
 # tana1 = tana.strftime("%b-%d-%Y")
 # print(f"Tere, tana on {tana1}")
-# paevadekogus=monthrange(2025,1)
+# paevadekogus=date(tana.year, 12, 31)
 # print(paevadekogus)
 # print(f"Jaanuaris on {paevadekogus} paeva")
 # paevad=tana.day
